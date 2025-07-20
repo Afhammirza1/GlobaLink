@@ -1,39 +1,31 @@
 
 ---
 
-## 🌍 2. **GlobaLink – Real-Time Multi-Language Chat App**
+### 📁 `GlobaLink/README.md`
 
 ```markdown
-# GlobaLink 🌍
+# GlobaLink 🌍💬
 
-A Flutter-powered real-time chat app that translates messages into the receiver’s preferred language instantly. Designed for global communication without barriers.
+**GlobaLink** is a real-time multilingual chat app built in Flutter. It uses AI to translate messages between users speaking different languages, enabling seamless global communication.
+
+## 💡 Key Features
+
+- 🌐 Real-time multilingual chat
+- 🤖 AI-powered message translation
+- 🔄 Automatic language detection
+- 👤 User-friendly Flutter UI
+- 📱 Supports Android, iOS, and Web
 
 ## 🛠 Tech Stack
 
-- Flutter (frontend)
-- Node.js + Socket.IO (backend)
-- Google Translate API (translation)
-- Firebase Auth (optional)
-- WebSockets
-
-## 🌟 Features
-
-- 💬 Real-time chat with live translation
-- 🗣️ Voice-to-text input
-- 🌐 Multiple language support
-- 📱 Mobile-first UI
-- 🧠 AI-powered language detection (coming soon)
+- **Frontend**: Flutter
+- **Backend**: Firebase (Realtime DB / Firestore + Auth)
+- **AI Translation**: Google Translate API / Gemini / Gemini 1.5 Pro (planned)
 
 ## 🚀 Getting Started
 
 ```bash
-# Flutter frontend
-cd globalink_flutter
+git clone https://github.com/your-username/GlobaLink.git
+cd GlobaLink
 flutter pub get
 flutter run
-
-# Backend
-cd globalink_server
-npm install
-node index.js
-
